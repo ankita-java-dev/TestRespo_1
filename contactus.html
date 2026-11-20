@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            #i3{
+             border-style: inset;
+            padding-left: 500px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-right: 90px;
+            margin: 50px;
+            background-color: lightgray;
+        }
+        #i3:hover{
+            color:green;
+        }body{
+            background-image: url("brown.png");
+             background-repeat: no-repeat;
+            background-size: 1500px 900px;
+            background-image: url("brown.png");
+        }
+        .f1{
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="i3">Contact Us</h1>
+    <form action="">
+        <fieldset class="f1">
+            <label for="name"><b>Name:</b></label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email"><b>Email:</b></label>
+            <input type="text" id="email" name="email" required><br><br>
+            <label for="mobno"><b>Mobile No:</b></label>
+            <input type="mobno" id="mobno" name="mobno"><br><br>
+            <label for="course"><b>Course:</b></label>
+        <select name="course" id="course">
+            <optgroup label="BackEnd">
+            <option value="select"selected disabled hidden>select courses</option>
+            <option value="">Java</option>
+            <option value="">Python</option>
+            <option value="">Data Engineer</option>
+            <option value="">Data Science</option>
+            </optgroup>
+            <optgroup label="Frontend">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JavaScript</option>
+            </optgroup>
+        </select><br><br>
+        <label for="message"><b>Message:</b></label>
+        <input type="text" id="message" name="message"><br><br>
+
+        <button type="submit"><b>Submit</b></button>
+
+        <h4>Address:</h4>
+        <p><b>Exponent IT Institute, Beside the Akurdi Railway Station,Pune.</b></p>
+        <h4>Contact here:</h4>
+        <b>996-090-8543</b><br>
+        <b>986-074-8543</b><br><br>
+        <b>www.youtube.com/@exponent-it</b> <br>
+        <b>www.exponent-it.com</b>
+    
+     
+
+        </fieldset>
+    </form>
+</body>
+</html>
